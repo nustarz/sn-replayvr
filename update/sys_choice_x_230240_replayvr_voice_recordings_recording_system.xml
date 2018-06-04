@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="recording_system" table="x_230240_replayvr_voice_recordings" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recording_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>NIM 4.1</label>
+            <language>en</language>
+            <name>x_230240_replayvr_voice_recordings</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:08:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>279224694f125300b49c22788310c7d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:08:42</sys_updated_on>
+            <value>nim41</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recording_system</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Perform 8.9</label>
+            <language>en</language>
+            <name>x_230240_replayvr_voice_recordings</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:09:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dfb260294f125300b49c22788310c7c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:09:09</sys_updated_on>
+            <value>p89</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recording_system</element>
+            <name>x_230240_replayvr_voice_recordings</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:08:42</sys_created_on>
+            <sys_id>ffa224694f125300b49c22788310c7a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>recording_system</sys_name>
+            <sys_package display_value="ReplayVR" source="x_230240_replayvr">35e21c6d4fde1300b49c22788310c77f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReplayVR">35e21c6d4fde1300b49c22788310c77f</sys_scope>
+            <sys_update_name>sys_choice_x_230240_replayvr_voice_recordings_recording_system</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:08:42</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_230240_replayvr_voice_recordings">x_230240_replayvr_voice_recordings</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>REP</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-25 11:59:47</sys_created_on>
+        <sys_id>dae25cad4fde1300b49c22788310c76c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>REP</sys_name>
+        <sys_package display_value="ReplayVR" source="x_230240_replayvr">35e21c6d4fde1300b49c22788310c77f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReplayVR">35e21c6d4fde1300b49c22788310c77f</sys_scope>
+        <sys_update_name>sys_number_dae25cad4fde1300b49c22788310c76c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-25 11:59:47</sys_updated_on>
+    </sys_number>
+</record_update>

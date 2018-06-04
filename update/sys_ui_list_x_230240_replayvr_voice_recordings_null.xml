@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_230240_replayvr_voice_recordings" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>interaction_id</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>ded360a94f125300b49c22788310c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>agent</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>52d360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>turret_id</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>d2d360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>called_party</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>56d360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>calling_party</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>d6d360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>recording_end</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>5ad360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>recording_start</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>dad360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>call_duration</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>5ed360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>call_direction</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>ded360a94f125300b49c22788310c7ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>recording_system</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>52d360a94f125300b49c22788310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>logger_name</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>d2d360a94f125300b49c22788310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>retention_rule</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>56d360a94f125300b49c22788310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="x_230240_replayvr_voice_recordings" element="NULL" name="x_230240_replayvr_voice_recordings" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5ad360a94f125300b49c22788310c7e9</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_id>d6d360a94f125300b49c22788310c7eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_230240_replayvr_voice_recordings</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 13:13:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ad360a94f125300b49c22788310c7e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_230240_replayvr_voice_recordings</sys_name>
+            <sys_package display_value="ReplayVR" source="x_230240_replayvr">35e21c6d4fde1300b49c22788310c77f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReplayVR">35e21c6d4fde1300b49c22788310c77f</sys_scope>
+            <sys_update_name>sys_ui_list_x_230240_replayvr_voice_recordings_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 13:13:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

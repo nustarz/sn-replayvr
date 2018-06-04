@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-25 11:59:46</sys_created_on>
+        <sys_id>4ae25cad4fde1300b49c22788310c705</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_230240_replayvr_voice_recordings.x_230240_replayvr.user</sys_name>
+        <sys_package display_value="ReplayVR" source="x_230240_replayvr">35e21c6d4fde1300b49c22788310c77f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReplayVR">35e21c6d4fde1300b49c22788310c77f</sys_scope>
+        <sys_security_acl display_value="x_230240_replayvr_voice_recordings">8ee25cad4fde1300b49c22788310c702</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4ae25cad4fde1300b49c22788310c705</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-25 11:59:46</sys_updated_on>
+        <sys_user_role display_value="x_230240_replayvr.user" name="x_230240_replayvr.user">b9e21cad4fde1300b49c22788310c7a7</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

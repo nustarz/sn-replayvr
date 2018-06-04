@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="call_direction" table="x_230240_replayvr_voice_recordings" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>call_direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Incoming</label>
+            <language>en</language>
+            <name>x_230240_replayvr_voice_recordings</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 12:54:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>535f10e54f125300b49c22788310c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 12:54:27</sys_updated_on>
+            <value>in</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>call_direction</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Outgoing</label>
+            <language>en</language>
+            <name>x_230240_replayvr_voice_recordings</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 12:54:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>787f10e54f125300b49c22788310c70b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 12:54:42</sys_updated_on>
+            <value>out</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>call_direction</element>
+            <name>x_230240_replayvr_voice_recordings</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-25 12:54:27</sys_created_on>
+            <sys_id>476f10e54f125300b49c22788310c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>call_direction</sys_name>
+            <sys_package display_value="ReplayVR" source="x_230240_replayvr">35e21c6d4fde1300b49c22788310c77f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReplayVR">35e21c6d4fde1300b49c22788310c77f</sys_scope>
+            <sys_update_name>sys_choice_x_230240_replayvr_voice_recordings_call_direction</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-25 12:54:27</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

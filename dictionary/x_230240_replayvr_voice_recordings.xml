@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" label="Replayvr Voice Recordings" max_length="40" name="x_230240_replayvr_voice_recordings" type="collection">
+        <element label="agent" max_length="32" name="agent" reference="sys_user" type="reference"/>
+        <element label="Audio ID" max_length="40" name="audio_id" read_only="true" type="integer"/>
+        <element attributes="html_sanitize=true" label="Audio Path" max_length="1024" name="audio_path" type="audio"/>
+        <element label="Called Party" max_length="40" name="called_party" type="phone_number_e164"/>
+        <element label="Calling Party" max_length="40" name="calling_party" type="phone_number_e164"/>
+        <element choice="3" default="Incoming" label="Call Direction" max_length="40" name="call_direction" type="choice">
+            <choice>
+                <element label="Incoming" value="in"/>
+                <element label="Outgoing" value="out"/>
+            </choice>
+        </element>
+        <element calculation="function callDuration(){&#13;&#10; &#13;&#10;    // First we need a DurationCalculator object.&#13;&#10;    var dc = new DurationCalculator();&#13;&#10; &#13;&#10;    // Compute a simple duration without any schedule. The arguments&#13;&#10;    // can also be of type GlideDateTime, such as fields from a GlideRecord.&#13;&#10;    var dur = dc.calcScheduleDuration([recording_start], [recording_end]);&#13;&#10;    gs.log(+ dur); // 86400 seconds (24 hours)&#13;&#10;}&#13;&#10;" display="true" label="Call Duration" max_length="40" name="call_duration" type="glide_time" virtual="true"/>
+        <element label="CTI End" max_length="40" name="cti_end" type="glide_date_time"/>
+        <element label="CTI Start" max_length="40" name="cti_start" type="glide_date_time"/>
+        <element choice="3" default="Netrix R" label="Device" max_length="4000" name="device" type="glide_list">
+            <choice>
+                <element label="Netrix R" value="Netrix R"/>
+                <element label="T4" value="T4"/>
+                <element label="T4M" value="T4M"/>
+            </choice>
+        </element>
+        <element attributes="format=none" label="Interaction ID" max_length="40" name="interaction_id" type="integer"/>
+        <element choice="3" default="RAMXTX212" label="Logger Name" max_length="180" name="logger_name" type="choice">
+            <choice>
+                <element label="RAMXTX212" value="RAMXTX212"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Recording End" max_length="40" name="recording_end" type="glide_date_time"/>
+        <element label="Recording Start" max_length="40" name="recording_start" type="glide_date_time"/>
+        <element choice="3" label="Recording System" max_length="32" name="recording_system" reference="cmdb_ci_application_software" type="reference">
+            <choice>
+                <element label="NIM 4.1" value="nim41"/>
+                <element label="Perform 8.9" value="p89"/>
+            </choice>
+        </element>
+        <element choice="3" default="Standard" label="Retention Rule" max_length="4000" name="retention_rule" type="glide_list">
+            <choice/>
+        </element>
+        <element label="Station ID" max_length="40" name="station_id" type="integer"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Turret ID" max_length="40" name="turret_id" type="integer"/>
+        <index name="index">
+            <element name="agent"/>
+        </index>
+        <index name="index2">
+            <element name="recording_system"/>
+        </index>
+    </element>
+</database>
