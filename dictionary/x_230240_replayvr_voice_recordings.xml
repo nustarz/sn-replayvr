@@ -3,7 +3,7 @@
     <element attributes="live_feed=true" label="Replayvr Voice Recordings" max_length="40" name="x_230240_replayvr_voice_recordings" type="collection">
         <element label="agent" max_length="32" name="agent" reference="sys_user" type="reference"/>
         <element label="Audio ID" max_length="40" name="audio_id" read_only="true" type="integer"/>
-        <element attributes="html_sanitize=true" label="Audio Path" max_length="1024" name="audio_path" type="audio"/>
+        <element display="true" label="Audio Path" max_length="1024" name="audio_path" type="audio"/>
         <element label="Called Party" max_length="40" name="called_party" type="phone_number_e164"/>
         <element label="Calling Party" max_length="40" name="calling_party" type="phone_number_e164"/>
         <element choice="3" default="Incoming" label="Call Direction" max_length="40" name="call_direction" type="choice">
@@ -12,7 +12,7 @@
                 <element label="Outgoing" value="out"/>
             </choice>
         </element>
-        <element calculation="function callDuration(){&#13;&#10; &#13;&#10;    // First we need a DurationCalculator object.&#13;&#10;    var dc = new DurationCalculator();&#13;&#10; &#13;&#10;    // Compute a simple duration without any schedule. The arguments&#13;&#10;    // can also be of type GlideDateTime, such as fields from a GlideRecord.&#13;&#10;    var dur = dc.calcScheduleDuration([recording_start], [recording_end]);&#13;&#10;    gs.log(+ dur); // 86400 seconds (24 hours)&#13;&#10;}&#13;&#10;" display="true" label="Call Duration" max_length="40" name="call_duration" type="glide_time" virtual="true"/>
+        <element calculation="function callDuration(){&#13;&#10; &#13;&#10;    // First we need a DurationCalculator object.&#13;&#10;    var dc = new DurationCalculator();&#13;&#10; &#13;&#10;    // Compute a simple duration without any schedule. The arguments&#13;&#10;    // can also be of type GlideDateTime, such as fields from a GlideRecord.&#13;&#10;    var dur = dc.calcScheduleDuration([recording_start], [recording_end]);&#13;&#10;    gs.log(+ dur); // 86400 seconds (24 hours)&#13;&#10;}&#13;&#10;" label="Call Duration" max_length="40" name="call_duration" type="glide_time" virtual="true"/>
         <element label="CTI End" max_length="40" name="cti_end" type="glide_date_time"/>
         <element label="CTI Start" max_length="40" name="cti_start" type="glide_date_time"/>
         <element choice="3" default="Netrix R" label="Device" max_length="4000" name="device" type="glide_list">
